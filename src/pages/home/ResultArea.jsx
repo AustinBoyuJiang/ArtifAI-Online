@@ -169,7 +169,7 @@ function ResultArea({ img, id, fileName }) {
                 <div className="source-area card">
                     <h3>Potential Origins</h3>
                     {
-                        sources.length > 0 ? (
+                        0&&sources.length > 0 ? (
                             <div className="sources">
                                 {sources.map((source) => (
                                     <div className="source">
