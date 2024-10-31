@@ -91,7 +91,7 @@ function ResultArea({ img, id, fileName }) {
     }, [img]);
 
     const fetchPredictions = (image) => {
-        const url = 'http://artifai.aj-coder.com/app1/detect';
+        const url = 'https://artifai.aj-coder.com/app1/detect';
         const options = {
             method: 'POST',
             headers: {
